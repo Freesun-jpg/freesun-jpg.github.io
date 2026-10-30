@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>友链 · Freesun's blog</title>
+  <meta name="description" content="友情链接。如想交换友链，可邮件联系。">
+  <meta property="og:title" content="友链 · Freesun's blog">
+  <meta property="og:description" content="友情链接。如想交换友链，可邮件联系。">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('theme');
+        var dark = saved ? saved === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+      } catch (e) {
+        document.documentElement.dataset.theme = 'light';
+      }
+    })();
+  </script>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <a class="skip" href="#main">跳到正文</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">Freesun's blog</a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="index.html">文章</a>
+        <a href="about.html">关于</a>
+        <a href="contact.html">联系</a>
+        <a href="https://www.freesun.top" target="_blank" rel="noopener">旧博客</a>
+        <a href="youlian.html" aria-current="page">友链</a>
+        <button class="theme-toggle" type="button" aria-label="切换深浅色主题">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/>
+          </svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"/>
+            <path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/>
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <article class="page">
+      <p class="hero-eyebrow">友链</p>
+      <h1 class="page-title">友情链接</h1>
+      <p class="page-intro">这里还没有友情链接。</p>
+
+      <hr class="rule">
+
+      <p class="page-intro">如想交换友链，可邮件 <a href="mailto:zhuwchang@gmail.com">zhuwchang@gmail.com</a>。</p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© <span data-year>2026</span> Freesun's blog</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
